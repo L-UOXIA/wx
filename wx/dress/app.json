@@ -1,0 +1,15 @@
+{
+  "pages":[
+   	"pages/index/index",
+		"pages/gift/gift",
+		"pages/one/one",
+		"pages/money/money",
+		"pages/we/we"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#e20064",
+    "navigationBarTitleText": "岳阳婚纱摄影",
+    "navigationBarTextStyle":"black"
+  }
+}

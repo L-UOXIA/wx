@@ -1,0 +1,50 @@
+/* pages/money/money.wxss */
+.bg{
+	width: 100%;
+	height: 456rpx;
+}
+.bg image{
+	height: 456rpx;
+}
+.money{
+	width: 92%;
+	background: #fff;
+	margin: 15rpx 15rpx 0 15rpx;
+}
+.one{
+	width: 100%;
+	height: 116rpx;
+	padding: 30rpx 30rpx 0 30rpx;
+	line-height: 100rpx;
+	border-bottom: 1px solid #eee;
+}
+.radio , .checkbox{
+	display: block;
+	margin-left: 40rpx;
+	line-height: 90rpx;
+	color: #666;
+}
+input{
+	width: 93%;
+	height: 89rpx;
+	border: 1px solid #666;
+	border-radius: 10rpx;
+	margin: 20rpx 10rpx;
+	text-indent: 1em;
+}
+button{
+	width: 93%;
+	height: 89rpx;
+	line-height: 89rpx;
+	border-radius: 10rpx;
+	margin: 20rpx 10rpx;
+	background: #e27;
+	color: #fff;
+	text-align: center;
+}
+.two{
+	text-align: center;
+	color: #666;
+	width: 100%;
+	line-height: 60rpx;
+}

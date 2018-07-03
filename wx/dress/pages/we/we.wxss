@@ -1,0 +1,40 @@
+/* pages/we/we.wxss */
+.we{
+	width: 100%;
+}
+.one{
+	width: 100%;
+	background: #fff;
+}
+.text{
+	padding: 30rpx 30rpx 0 30rpx;
+	line-height: 60rpx;
+	color: #666;
+	font-size: 35rpx;
+}
+.two{
+	border-top: 0.5rpx solid #666;
+	background: #fff;
+	height: 308rpx;
+	color: #666;
+	margin-bottom: 30rpx;
+	width: 100%;
+	font-size: 35rpx;
+}
+.two-h{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background: #fff;
+}
+.left{
+	margin:0 30rpx;
+	float: left;
+}
+.right{
+	width: 80%;
+	overflow: hidden;
+	height: 90rpx;
+	line-height: 90rpx;
+	float: left;
+}

@@ -1,0 +1,78 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="lunbo">
+		<swiper indicator-dots="{{indicatorDots}}"
+  	autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+ 	 	<block wx:for="{{imgUrls}}">
+    	<swiper-item>
+      	<image src="{{item}}" class="slide-image" />
+    	</swiper-item>
+  	</block>
+		</swiper>
+	</view>
+	<view class='remen'>热门套系</view>
+	<view class='one' wx:for='{{imgUrl}}'>
+		<image src='{{item}}' class='one-image'/>
+	</view>
+	<view class='two' wx:for='{{list}}'>
+		<view class='left'><image src='{{item.img}}'></image></view>
+		<view class='center'>
+			<p class='p'>{{item.pic}}</p>
+			<p><span class='span1'>{{item.desc}}</span><span class='span2'>{{item.line}}</span></p>
+		</view>
+		<view class='right'>{{item.right}}</view>
+	</view>
+	<view class='remen'>作品欣赏</view>
+	<view class='three'>
+		<view class='three-one' wx:for='{{btnList}}'>
+			<image src='{{item.img}}'></image>
+			<view class='three-two'>
+				<span class='three-left'>{{item.pic}}</span>
+				<p class='three-right'>
+					<span class='iconfont icon-xinxing'></span>
+					<span class='btn'>{{item.desc}}</span>
+					<span class='iconfont icon-xiaoxi'></span>
+					<span class='btn'>{{item.xiao}}</span>
+				</p>
+			</view>
+		</view>
+	</view>
+	<view class='remen-h'>查看更多作品 + </view>
+	<view class='remen'>客片展示</view>
+	<view class='three'>
+		<view class='three-one' wx:for='{{keList}}'>
+			<image class='three-img' src='{{item.img}}'></image>
+			<view class='th'><span>{{item.pic}}</span></view>
+		</view>
+	</view>
+	<view class='remen-h'>查看更多客片 + </view>
+	<view class='remen'>最新活动</view>
+	<view class='five' wx:for='{{huoList}}'>
+		<view class='five-left'>
+			<image src='{{item.img}}'></image>
+		</view>
+		<view class='five-right'>
+			<p class='five-p'><span>{{item.pic}}</span><span>{{item.desc}}</span></p>
+			<p class='five-pp'>{{item.zhu}}</p>
+		</view>
+	</view>
+	<view class='remen-h'>查看更多活动 + </view>
+</view>
+<view class='fixd'>
+	<navigator url='/pages/index/index' class='btn-yes'>
+		<span class='iconfont icon-shouye'></span>
+		<span>首页</span>
+	</navigator>
+	<navigator url='/pages/gift/gift'>
+		<span class='iconfont icon-gift'></span>
+		<span>套系</span>
+	</navigator>
+	<navigator url='/pages/money/money'>
+		<span class='iconfont icon-qian'></span>
+		<span>报价</span>
+	</navigator>
+	<navigator url='/pages/we/we'>
+		<span class='iconfont icon-i'></span>
+		<span>我们</span>
+	</navigator>
+</view>

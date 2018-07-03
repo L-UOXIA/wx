@@ -1,0 +1,33 @@
+.one{
+	width: 100%;
+	height: 474rpx;
+	margin-bottom: 35rpx;
+}
+.hand{
+	width: 92%;
+	margin:0 30rpx;
+	font-size: 40rpx;
+	height: 90rpx;
+	line-height: 90rpx;
+}
+.handle{
+	width: 92%;
+	margin:0 30rpx;
+	color: #666;
+}
+.head{
+	width: 93%;
+	margin:0 30rpx;
+	height: 90rpx;
+	line-height: 90rpx;
+}
+.span1{
+	font-size: 40rpx;
+	color: #e20064;
+	margin-right: 10rpx;
+}
+.span2{
+	text-decoration:line-through;
+	font-size: 30rpx;
+	color: #999999;
+}

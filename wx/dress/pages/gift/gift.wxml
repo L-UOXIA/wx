@@ -1,0 +1,25 @@
+<view class='container'>
+	<view class='gift' wx:for='{{imgList}}'>
+		<navigator url='{{item.url}}'>
+			<image src='{{item.img}}'></image>
+		</navigator>
+	</view>
+</view>
+<view class='fixd'>
+	<navigator url='/pages/index/index' >
+		<span class='iconfont icon-shouye'></span>
+		<span>首页</span>
+	</navigator>
+	<navigator url='/pages/gift/gift' class='btn-yes'>
+		<span class='iconfont icon-gift'></span>
+		<span>套系</span>
+	</navigator>
+	<navigator url='/pages/money/money'>
+		<span class='iconfont icon-qian'></span>
+		<span>报价</span>
+	</navigator>
+	<navigator url='/pages/we/we'>
+		<span class='iconfont icon-i'></span>
+		<span>我们</span>
+	</navigator>
+</view>

@@ -1,0 +1,151 @@
+/**index.wxss**/
+.remen{
+	width: 100%;
+	height: 138rpx;
+	line-height: 138rpx;
+	text-align: center;
+	background: #fff;
+	color: #e20064;
+	font-weight: bold;
+	margin-top: 30rpx;
+}
+.remen-h{
+	border-top:1px solid #f2f2f2;
+	width: 100%;
+	height: 138rpx;
+	line-height: 138rpx;
+	text-align: center;
+	background: #fff;
+	color: #999999;
+}
+.one{
+	width: 100%;
+}
+.one-image{
+	width:100%;
+	height: 656rpx;
+}
+.two{
+	width: 100%;
+	height: 228rpx;
+	background: #fff;
+	border-bottom:1px solid #f2f2f2;
+}
+.left{
+	width: 34%;
+	float: left;
+}
+.left image{
+	padding:26rpx 15rpx 0 15rpx;
+	width: 230rpx;
+	height: 139rpx;
+}
+.center{
+	position: relative;
+}
+.center p:first-child{
+	position: absolute;
+	top: 45rpx;
+	color: #666666;
+}
+.center p:last-child{
+	position: absolute;
+	top: 115rpx;
+}
+.right{
+	width: 30%;
+	float:right;
+	color:#999999;
+	margin:90rpx 0 0 0 ;
+	font-size:35rpx;
+	text-align: right;
+	margin-right: 25rpx;
+}
+.span1{
+	color: #e20064;
+	font-size: 40rpx;
+}
+.span2{
+	text-decoration:line-through;
+	font-size: 30rpx;
+	color: #999999;
+}
+.three{
+	width: 100%;
+	background: #fff;
+}
+.three-one{
+	width:46%;
+	float: left;
+	margin: 0 15rpx ;
+}
+.three-one image{
+	width: 100%;
+}
+.three-two{
+	width: 100%;
+	height: 112rpx;
+	line-height: 80rpx;
+}
+.three-left{
+	float: left;
+	font-size: 30rpx;
+	color: #666666;
+}
+.three-right{
+	font-size: 31rpx;
+	float: right;
+	margin:0 10rpx;
+	color: #999999;
+}
+.three-right .iconfont{
+	color: #e20064;
+}
+.three-img{
+	width: 100%;
+	height: 289rpx;
+}
+.th{
+	width: 100%;
+	line-height: 80rpx;
+	text-align: center;
+}
+.five{
+	width: 100%;
+	background: #fff;
+	height: 225rpx;
+	border-bottom:1px solid #f2f2f2;
+}
+.five-left{
+	width: 287rpx;
+	height: 225rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+}
+.five-left image{
+	width: 229rpx;
+	height: 173rpx;
+}
+.five-right{
+	margin-top: 26rpx;
+	float: left;
+	width: 60%;
+}
+.five-right p{
+	line-height: 80rpx;
+	display: block;
+	color: #666666;
+	width: 100%;
+	height: 80rpx;
+	font-size: 30rpx;
+	overflow: hidden;
+}
+.five-p span{
+	margin-right:10rpx;
+	color: #e20064;
+}
+.five-pp{
+	color: #999999;
+}

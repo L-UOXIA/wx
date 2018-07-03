@@ -1,0 +1,64 @@
+<view class='container'>
+	<view class='bg'><image src='../images/bg.gif'></image></view>
+	<form class='money'>
+		<view class='one'>您需要多少套礼服？</view>
+		<radio-group class="radio-group" bindchange="radioChange">
+  		<label class="radio" wx:for="{{items}}">
+   			<radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  		</label>
+		</radio-group>
+		<view class='one'>您选择什么样的拍摄风格？</view>
+		<checkbox-group bindchange="checkboxChange">
+  		<label class="checkbox" wx:for="{{itemsCheck}}">
+    		<checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  		</label>
+		</checkbox-group>
+		<view class='one'>您选择哪些外景？</view>
+		<checkbox-group bindchange="checkboxChange">
+  		<label class="checkbox" wx:for="{{itemsList}}">
+    		<checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  		</label>
+		</checkbox-group>
+		<view class='one'>您需要放大多少张照片？</view>
+		<radio-group class="radio-group" bindchange="radioChange">
+  		<label class="radio" wx:for="{{itemsPhoto}}">
+   			<radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  		</label>
+		</radio-group>
+		<view class='one'>您需要多少本相册？</view>
+		<radio-group class="radio-group" bindchange="radioChange">
+  		<label class="radio" wx:for="{{itemsPhotoItem}}">
+   			<radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  		</label>
+		</radio-group>
+		<view class='one'>您选择拍摄具有哪些特色的照片？</view>
+		<checkbox-group bindchange="checkboxChange">
+  		<label class="checkbox" wx:for="{{itemsListPhoto}}">
+    		<checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  		</label>
+		</checkbox-group>
+		<input type='text' placeholder='您的姓名'></input>
+		<input type='text' placeholder='手机号码'></input>
+		<button type='submit'>获取报价</button>
+	</form>
+	<view class='two'>恭喜您将获得套餐减1000元现金机会</view>
+	<view class='two'>感谢您对我们的信任及支持</view>
+</view>
+<view class='fixd'>
+	<navigator url='/pages/index/index'>
+		<span class='iconfont icon-shouye'></span>
+		<span>首页</span>
+	</navigator>
+	<navigator url='/pages/gift/gift'>
+		<span class='iconfont icon-gift'></span>
+		<span>套系</span>
+	</navigator>
+	<navigator url='/pages/money/money' class='btn-yes'>
+		<span class='iconfont icon-qian'></span>
+		<span>报价</span>
+	</navigator>
+	<navigator url='/pages/we/we'>
+		<span class='iconfont icon-i'></span>
+		<span>我们</span>
+	</navigator>
+</view>
